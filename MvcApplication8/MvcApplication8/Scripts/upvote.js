@@ -5,15 +5,27 @@
         UserName: "",
         ItemId: obj
     }
-    $.ajax({
+
+   
+
+
+
+   $.ajax({
         type: "POST",
         url: "/Xml2Model/Index",
-        data: Li}
-    );
+        data: Li,
+        success: function (response) {
+            if (response) {
+                document.getElementById(obj).innerHTML = parseInt(document.getElementById(obj).innerHTML) + 1;     
+                document.getElementById("i" + obj).onclick = null;
+            }
+            
+
+
+        }});
     
 
-    document.getElementById(obj).innerHTML = parseInt(document.getElementById(obj).innerHTML)+1;     //只能改变第一行啊
-    document.getElementById("i"+obj).onclick=null;
+    
 
 }
 
