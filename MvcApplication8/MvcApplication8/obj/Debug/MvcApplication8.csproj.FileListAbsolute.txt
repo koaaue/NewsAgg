@@ -195,3 +195,5 @@ C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAut
 C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
 C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
 C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
+C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.dll
+C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.xml
