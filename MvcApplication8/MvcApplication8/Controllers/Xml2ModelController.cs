@@ -107,6 +107,7 @@ namespace MvcApplication8.Controllers
 
 
             }
+            db.SaveChanges();
             var query = from item in db.items
                          where item.imgId == ""
                          select item;
@@ -116,11 +117,7 @@ namespace MvcApplication8.Controllers
                 item.imgId = "i" + item.Id;
             }
 
-            var q = from like in db.likes
-                        where (like.UserName == "Jack") && (like.ItemId == 5)
-                        select like;
-           bool x = q.Count() == 0;
-           ViewBag.message = x;
+            
 
             db.SaveChanges();
             return View(db.items.ToList());
@@ -135,8 +132,9 @@ namespace MvcApplication8.Controllers
         [HttpPost]
         public ActionResult Index(Models.like Li)   //通过AJAX在后台访问
         {
-            bool x = true;
-            if (System.Web.HttpContext.Current != null && System.Web.HttpContext.Current.Request.IsAuthenticated)
+            int x = 0;
+             if (System.Web.HttpContext.Current == null) return Json(x);  
+              if (System.Web.HttpContext.Current != null && System.Web.HttpContext.Current.Request.IsAuthenticated)
             {
                 // 检查当前用户是否已为一个已登录用户
                 //bool isAuthenticated = System.Web.HttpContext.Current.Request.IsAuthenticated;
@@ -147,24 +145,26 @@ namespace MvcApplication8.Controllers
                 string userName = System.Web.HttpContext.Current.User.Identity.Name;
 
                 Li.UserName=userName;
-
+                x = -1;
                 var query = from like in db.likes
                             where (like.UserName == userName) && (like.ItemId==Li.ItemId)
                             select like;
-                x = query.Count() == 0;
-                if (x)
+                
+                if (query.Count() == 0)
                 {
-
+                    x = 1;
                     db.likes.Add(Li);
 
                     db.items.Find(Li.ItemId).totalLike ++;
                     db.SaveChanges();
+                         
                 }
 
+               return Json(x);   
             }
 
-
-            return Json(x);                  //?
+              return Json(x); 
+                         //?
         }
 
         //

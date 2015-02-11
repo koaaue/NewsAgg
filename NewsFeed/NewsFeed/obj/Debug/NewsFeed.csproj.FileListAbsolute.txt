@@ -101,6 +101,109 @@
 \\psf\home\documents\visual studio 2013\Projects\NewsFeed\NewsFeed\obj\Debug\NewsFeed.pdb
 \\psf\Home\Documents\Visual Studio 2013\Projects\NewsFeed\NewsFeed\obj\Debug\NewsFeed.Migrations.init.resources
 \\psf\Home\Documents\Visual Studio 2013\Projects\NewsFeed\NewsFeed\obj\Debug\NewsFeed.csproj.GenerateResource.Cache
+<<<<<<< HEAD
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\NewsFeed.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\NewsFeed.pdb
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Antlr3.Runtime.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.AspNet.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.Core.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OAuth.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OpenId.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\EntityFramework.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Data.Edm.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Data.OData.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Web.Infrastructure.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Newtonsoft.Json.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Net.Http.Formatting.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Spatial.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Helpers.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.OData.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.WebHost.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Mvc.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Optimization.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Razor.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.Deployment.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.Razor.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\WebGrease.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\WebMatrix.Data.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\WebMatrix.WebData.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\EntityFramework.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Newtonsoft.Json.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Net.Http.Formatting.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Helpers.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.WebHost.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Mvc.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Razor.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.Deployment.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.WebPages.Razor.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\WebMatrix.Data.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\WebMatrix.WebData.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.AspNet.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.Core.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OAuth.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OpenId.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Web.Http.OData.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Data.Edm.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\Microsoft.Data.OData.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\System.Spatial.xml
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\EntityFramework.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Net.Http.Formatting.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Helpers.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Http.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Http.WebHost.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Mvc.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Optimization.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Razor.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.WebPages.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.WebPages.Deployment.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.WebPages.Razor.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\Microsoft.Web.WebPages.OAuth.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\WebMatrix.WebData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Web.Http.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\de\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\es\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\it\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\de\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\es\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\fr\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\it\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ja\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ko\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ru\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\de\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\es\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\fr\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\it\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ja\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ko\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\ru\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hans\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hant\System.Spatial.resources.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.csprojResolveAssemblyReference.cache
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.Migrations.init.resources
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.csproj.GenerateResource.Cache
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.dll
+C:\newsagg2\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.pdb
+=======
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\bin\NewsFeed.dll.config
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\bin\NewsFeed.dll
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\bin\NewsFeed.pdb
@@ -204,3 +307,4 @@
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.csproj.GenerateResource.Cache
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.dll
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.pdb
+>>>>>>> f45b152e38f2604c4fcfb8e4bab32ef3195d50bc
