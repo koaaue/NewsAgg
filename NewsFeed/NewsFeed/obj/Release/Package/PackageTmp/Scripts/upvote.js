@@ -7,7 +7,7 @@
     }
     $.ajax({
         type: "POST",
-        url: "/News/Index",
+        url: "/Home/Index",
         data: Li/*,
             success: function (data) {
             }*/
@@ -30,7 +30,7 @@ $(document).ready(function () {
         }
         $.ajax({
             type: "POST",
-            url: "/News/Index",
+            url: "/Home/Index",
             data: Li/*,
             success: function (data) {
             }*/
