@@ -165,6 +165,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\CNNController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\Xml2ModelController.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
@@ -240,6 +241,7 @@
     <None Include="Properties\PublishProfiles\koaaue.pubxml" />
     <None Include="Properties\PublishProfiles\newsfeed.pubxml" />
     <None Include="Scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Images\logo.png" />
     <Content Include="Images\thumb.png" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -296,6 +298,8 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Web.config" />
     <Content Include="Views\Xml2Model\Index.cshtml" />
+    <Content Include="Views\CNN\CNN.cshtml" />
+    <Content Include="Views\CNN\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

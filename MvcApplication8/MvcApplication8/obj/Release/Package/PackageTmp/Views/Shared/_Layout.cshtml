@@ -12,7 +12,15 @@
         <header>
             <div class="content-wrapper">
                 <div class="float-left">
-                    <p class="site-title">@Html.ActionLink("your logo here", "Index", "Home")</p>
+                    <p class="site-title">@Html.ActionLink(
+    " ", 
+    "Index", 
+    "Home", 
+    null , 
+    new { 
+        style = "background: url('" + Url.Content("~/Images/logo.png") + "') no-repeat center right; display:block; height:84px; width:264px;" 
+    }
+)</p>
                 </div>
                 <div class="float-right">
                     <section id="login">

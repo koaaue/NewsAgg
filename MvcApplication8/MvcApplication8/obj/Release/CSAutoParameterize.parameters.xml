@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <parameters>
   <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\v11.0;Initial Catalog=aspnet-MvcApplication8-20150131162226;Integrated Security=SSPI;AttachDBFilename=|DataDirectory|\aspnet-MvcApplication8-20150131162226.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Desktop\\MvcApplication8\\MvcApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\newsagg2\\NewsAgg\\MvcApplication8\\MvcApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
   </parameter>
   <parameter name="CarContext-Web.config Connection String" description="CarContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\v11.0; Initial Catalog=CarContext-20150131162545; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|CarContext-20150131162545.mdf" tags="SqlConnectionString">
-    <parameterEntry kind="XmlFile" scope="C:\\Users\\Administrator\\Desktop\\MvcApplication8\\MvcApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CarContext']/@connectionString" />
+    <parameterEntry kind="XmlFile" scope="C:\\newsagg2\\NewsAgg\\MvcApplication8\\MvcApplication8\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='CarContext']/@connectionString" />
   </parameter>
 </parameters>

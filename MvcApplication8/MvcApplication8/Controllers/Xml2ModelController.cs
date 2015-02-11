@@ -107,6 +107,7 @@ namespace MvcApplication8.Controllers
 
 
             }
+            db.SaveChanges();
             var query = from item in db.items
                          where item.imgId == ""
                          select item;
@@ -116,11 +117,7 @@ namespace MvcApplication8.Controllers
                 item.imgId = "i" + item.Id;
             }
 
-            var q = from like in db.likes
-                        where (like.UserName == "Jack") && (like.ItemId == 5)
-                        select like;
-           bool x = q.Count() == 0;
-           ViewBag.message = x;
+            
 
             db.SaveChanges();
             return View(db.items.ToList());
