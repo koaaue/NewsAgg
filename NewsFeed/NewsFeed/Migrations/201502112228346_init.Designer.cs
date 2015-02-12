@@ -11,7 +11,7 @@ namespace NewsFeed.Migrations
         
         string IMigrationMetadata.Id
         {
-            get { return "201502110017523_init"; }
+            get { return "201502112228346_init"; }
         }
         
         string IMigrationMetadata.Source
