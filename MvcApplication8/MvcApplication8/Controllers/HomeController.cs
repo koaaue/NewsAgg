@@ -1,6 +1,7 @@
 ﻿using MvcApplication8.Models;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Globalization;
 using System.Linq;
 using System.Web;
@@ -13,9 +14,14 @@ namespace MvcApplication8.Controllers
         private CarContext db = new CarContext();
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            var query = from item in db.items
+                        where DbFunctions.DiffHours(item.Date, DateTime.Now) < 12
+                        select item;
 
-            return View(db.items.ToList());
+            
+           
+
+            return View(query.ToList());
         }
 
         public ActionResult About()

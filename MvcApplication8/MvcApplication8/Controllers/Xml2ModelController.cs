@@ -120,7 +120,7 @@ namespace MvcApplication8.Controllers
             
 
             db.SaveChanges();
-            return View(db.items.ToList());
+            return View();
         }
 
 
