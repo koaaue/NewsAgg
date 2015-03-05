@@ -248,3 +248,5 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.Re
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.dll
+\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.xml

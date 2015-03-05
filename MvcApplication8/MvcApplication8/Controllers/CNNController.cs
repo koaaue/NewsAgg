@@ -101,7 +101,7 @@ namespace MvcApplication8.Controllers
                 }
 
 
-                Models.item item = new Models.item(cars.item[i], time, "CNN", 0, "");
+                Models.item item = new Models.item(cars.item[i], time, "CNN", 0);//, "");
 
                 db.items.Add(item);               //item include 4 elements
                 //db.channel.Add(cars.item[i]);
@@ -109,7 +109,9 @@ namespace MvcApplication8.Controllers
 
             }
             db.SaveChanges();
-            var query = from item in db.items
+
+
+            /*var query = from item in db.items
                         where item.imgId == ""
                         select item;
 
@@ -117,10 +119,7 @@ namespace MvcApplication8.Controllers
             {
                 item.imgId = "i" + item.Id;
             }
-
-
-
-            db.SaveChanges();
+            db.SaveChanges();*/
             return View();
         }
 

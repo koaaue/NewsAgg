@@ -22,7 +22,7 @@ namespace MvcApplication8.Models
 
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
-        public string imgId { get; set; }
+        //public string imgId { get; set; }
         [ForeignKey("source")]
         public string srcName { get; set; }
       //  public string category { get; set; }
@@ -31,7 +31,7 @@ namespace MvcApplication8.Models
         {
         }
 
-        public item(item i, DateTime d, string s, int t,string x)
+        public item(item i, DateTime d, string s, int t)//,string x)
         {
             title = i.title;
             pubDate = i.pubDate;
@@ -39,7 +39,7 @@ namespace MvcApplication8.Models
             Date = d;
             srcName = s;
             totalLike = t;
-            imgId = x;
+            //imgId = x;
         }
 
         public virtual source source { get; set; }
