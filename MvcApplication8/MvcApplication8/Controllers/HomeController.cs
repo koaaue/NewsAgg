@@ -13,8 +13,10 @@ namespace MvcApplication8.Controllers
     {
         private CarContext db = new CarContext();
         public ActionResult Index()
+
         {
-            var query = from item in db.items
+            var query = from item in db.items                                       //只提取一天内的新闻
+
                         where DbFunctions.DiffHours(item.Date, DateTime.Now) < 24
                         select item;
 

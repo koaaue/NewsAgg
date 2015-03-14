@@ -187,8 +187,10 @@
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Models\ArticleKeyword.cs" />
     <Compile Include="Models\Car.cs" />
     <Compile Include="Models\CarContext.cs" />
+    <Compile Include="Models\KeywordsTotal.cs" />
     <Compile Include="Models\like.cs" />
     <Compile Include="Models\source.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

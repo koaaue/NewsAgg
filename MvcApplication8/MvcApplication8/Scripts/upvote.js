@@ -20,7 +20,8 @@
                 
             }
             else if (x == 0) {
-                window.location.href = "http://koaaue-001-site1.myasp.net/Account/Login/";
+                //window.location.href = "http://koaaue-001-site1.myasp.net/Account/Login/";
+                window.location.href = "/Account/Login/";
             }
             else {
                 alert('You have already voted');

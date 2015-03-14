@@ -1,202 +1,4 @@
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Microsoft.Web.Infrastructure.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Http.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Optimization.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Razor.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\WebGrease.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Http.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.Razor.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
-D:\用户目录\我的文档\Visual Studio 2012\Projects\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll.config
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.Infrastructure.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Http.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Optimization.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Razor.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\WebGrease.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Http.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Razor.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
-\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
-C:\newsagg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.Infrastructure.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Http.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Optimization.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Razor.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\WebGrease.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.dll
-C:\newsagg\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Http.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.Razor.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.xml
-C:\newsagg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\newsagg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
-C:\newsagg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
-C:\newsagg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Microsoft.Web.Infrastructure.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Http.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Optimization.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Razor.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\WebGrease.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Http.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Http.WebHost.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Mvc.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.Razor.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Deployment.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\System.Web.WebPages.Razor.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.AspNet.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.Core.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Consumer.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.dll
-C:\Users\Administrator\Desktop\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll.config
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
@@ -208,9 +10,13 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.dl
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.Infrastructure.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Web.WebPages.OAuth.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.Security.Providers.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Http.dll
@@ -226,6 +32,8 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.Data.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\WebMatrix.WebData.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\EntityFramework.SqlServer.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Newtonsoft.Json.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Net.Http.Formatting.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\System.Web.Helpers.xml
@@ -245,12 +53,6 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.Con
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OAuth.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.dll
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.dll
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.dll
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.Security.Providers.dll
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.xml
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache

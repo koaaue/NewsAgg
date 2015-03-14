@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Entity;
 using System.Linq;
+
 using System.Web;
 using System.Web.Mvc;
 using MvcApplication8.Models;
@@ -10,6 +11,8 @@ using System.IO;
 using System.Xml.Serialization;
 using System.Net;
 using System.Xml;
+using System.Text.RegularExpressions;
+using System.Collections;
 
 namespace MvcApplication8.Controllers
 {
@@ -22,6 +25,14 @@ namespace MvcApplication8.Controllers
 
         public ActionResult Index()
         {
+           /* HashSet<string> hs = new HashSet<string>();
+            var query = from KeywordsTotal in db.keywordsTotal
+                        select KeywordsTotal;
+            for (int i = 0; i < query.Count(); i++)
+            {
+                hs.Add(query.ElementAt(i).keyword);
+
+            }*/
 
             //Linq 语法 计算在likes 中ItemID文章的总like数目，也可用EF方法实现，比较麻烦
             // int x = db.likes.Count(like => like.ItemId ==101);
@@ -100,15 +111,40 @@ namespace MvcApplication8.Controllers
                 }
 
 
-                Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0, "");
+                Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0);// "");
 
                 db.items.Add(item);               //item include 4 elements
+                db.SaveChanges();
+               
+                string[] words = item.title.Split(' ');
+                string str;
+                for (int j = 0; j < 3; j++) {
+                    str = words[j];
+                    str = Regex.Replace(str, "[\\s\\p{P}\n\r=<>$>+￥^]", "").ToLower();
+                db.articleKeyword.Add(new ArticleKeyword(str, item.Id));
+
+
+                if (db.keywordsTotal.Find(str)!=null)
+                {
+                    db.keywordsTotal.Find(str).keywordSum++;
+                    
+                }
+                else
+                {
+                    db.keywordsTotal.Add(new KeywordsTotal(str,1));
+                    
+                }
+                    db.SaveChanges();
+                }
+                
+
                 //db.channel.Add(cars.item[i]);
 
-
+                 
             }
-            db.SaveChanges();
-            var query = from item in db.items
+            //db.SaveChanges();
+
+            /*var query = from item in db.items
                          where item.imgId == ""
                          select item;
 
@@ -116,10 +152,7 @@ namespace MvcApplication8.Controllers
             {
                 item.imgId = "i" + item.Id;
             }
-
-            
-
-            db.SaveChanges();
+            db.SaveChanges();*/
             return View();
         }
 
