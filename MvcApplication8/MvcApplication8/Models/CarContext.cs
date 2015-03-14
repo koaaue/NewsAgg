@@ -1,6 +1,8 @@
 ﻿using System.Data.Entity;
 using MvcApplication8.Models;
 
+using System.Linq;
+
 namespace MvcApplication8.Models
 {
     public class CarContext : DbContext
@@ -22,5 +24,8 @@ namespace MvcApplication8.Models
         public DbSet<source> sources { get; set; }
         public DbSet<like> likes { get; set; }
 
+        public DbSet<KeywordsTotal> keywordsTotal { get; set; }
+
+        public DbSet<ArticleKeyword> articleKeyword { get; set; }
     }
 }

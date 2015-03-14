@@ -358,7 +358,7 @@ namespace MvcApplication8.Controllers
 
             public string Provider { get; private set; }
             public string ReturnUrl { get; private set; }
-
+        
             public override void ExecuteResult(ControllerContext context)
             {
                 OAuthWebSecurity.RequestAuthentication(Provider, ReturnUrl);
