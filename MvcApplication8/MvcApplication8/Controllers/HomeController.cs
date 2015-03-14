@@ -15,7 +15,7 @@ namespace MvcApplication8.Controllers
         public ActionResult Index()
         {
             var query = from item in db.items
-                        where DbFunctions.DiffHours(item.Date, DateTime.Now) < 12
+                        where DbFunctions.DiffHours(item.Date, DateTime.Now) < 24
                         select item;
 
             
@@ -33,8 +33,7 @@ namespace MvcApplication8.Controllers
 
         public ActionResult Contact()
         {
-            DateTime newtime = DateTime.ParseExact("Wed, 11 Feb 2015 10:35:48 EST", "ddd, dd MMM yyyy HH:mm:ss EST", new CultureInfo("en-US")).AddHours(10);
-            ViewBag.Message = newtime;
+           
 
             return View();
         }

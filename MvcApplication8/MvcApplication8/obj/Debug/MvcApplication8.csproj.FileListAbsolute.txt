@@ -248,3 +248,9 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.Re
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.Security.Providers.dll
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.xml
