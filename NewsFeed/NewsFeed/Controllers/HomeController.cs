@@ -1,4 +1,5 @@
 ﻿using NewsFeed.Models;
+using NewsFeed.Controllers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -63,6 +64,7 @@ namespace NewsFeed.Controllers
               初始化最新时间newTime
              ******************************/
             DateTime newTime;
+
             if (db.sources.Find("NYTimes") == null)
                 //db.sources.Add(new Models.source("NYTimes", new DateTime(2000,1,1)));    //Initialize database
                 db.sources.Add(new Models.source("NYTimes", DateTime.Parse("Sat, 07 Feb 2015 00:57:00 GMT")));
@@ -105,14 +107,22 @@ namespace NewsFeed.Controllers
                 Models.item item = new Models.item(cars.item[i], time, "NYTimes",0);
 
                 db.items.Add(item);               //item include 4 elements
-                //db.channel.Add(cars.item[i]);
+
+                db.SaveChanges();                 //save DB before calling other function !!
+
+
+
+                /**********************************
+                 * 添加每篇文章同时对keyword表和artCntKey表进行统计
+                 * ********************************/
+                KeywordAnalyzer ka = new KeywordAnalyzer();
+
+                ka.analyze(item);
 
 
             }
 
-
-
-            db.SaveChanges();
+            //db.SaveChanges();                 
             return View(db.items.ToList());
         }
 
@@ -169,6 +179,9 @@ namespace NewsFeed.Controllers
         public ActionResult About()
         {
             ViewBag.Message = "Your app description page.";
+
+
+            KeywordAnalyzer ka = new KeywordAnalyzer();
 
             return View();
         }

@@ -20,6 +20,10 @@ namespace NewsFeed.Models
         public DbSet<item> items { get; set; }
         public DbSet<source> sources { get; set; }
         public DbSet<like> likes { get; set; }
+
+        public DbSet<keyword> keywords { get; set; }
+        public DbSet<artCntKey> artCntKeys { get; set; }
+
     }
 
     [Table("UserProfile")]

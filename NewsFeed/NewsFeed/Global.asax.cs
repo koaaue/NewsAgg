@@ -25,6 +25,7 @@ namespace NewsFeed
             AuthConfig.RegisterAuth();
 
             //System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseIfModelChanges<NewsFeed.Models.UsersContext>());
+            System.Data.Entity.Database.SetInitializer(new System.Data.Entity.DropCreateDatabaseAlways<NewsFeed.Models.UsersContext>());
 
             //auto migrate
             //System.Data.Entity.Database.SetInitializer(new System.Data.Entity.MigrateDatabaseToLatestVersion<NewsFeed.Models.UsersContext,Migrations.Configuration>());
