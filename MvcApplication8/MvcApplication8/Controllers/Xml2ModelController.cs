@@ -109,8 +109,8 @@ namespace MvcApplication8.Controllers
                     Models.source src = db.sources.Find("NYTimes");
                     src.newDate = time;    //更新时间
                 }
-
-
+                // description里面会带有<和> 之间的多余内容，例如广告，使用正则表达式可以消除掉
+                cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
                 Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0);// "");
 
                 db.items.Add(item);               //item include 4 elements
@@ -120,7 +120,7 @@ namespace MvcApplication8.Controllers
                 string str;
                 for (int j = 0; j < 3; j++) {
                     str = words[j];
-                    str = Regex.Replace(str, "[\\s\\p{P}\n\r=<>$>+￥^]", "").ToLower();
+                    str = Regex.Replace(str, "[\\s\\p{P}\n\r=<>$>+￥^]", "").ToLower();//去掉关键字里面的标点
                 db.articleKeyword.Add(new ArticleKeyword(str, item.Id));
 
 

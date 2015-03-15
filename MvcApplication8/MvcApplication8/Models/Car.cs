@@ -20,6 +20,9 @@ namespace MvcApplication8.Models
         [System.Xml.Serialization.XmlElement("guid")]
         public string guid { get; set; }
 
+        [System.Xml.Serialization.XmlElement("description")]
+        public string description { get; set; }
+
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
         //public string imgId { get; set; }
@@ -37,6 +40,7 @@ namespace MvcApplication8.Models
             pubDate = i.pubDate;
             guid = i.guid;
             Date = d;
+            description = i.description;
             srcName = s;
             totalLike = t;
             //imgId = x;
