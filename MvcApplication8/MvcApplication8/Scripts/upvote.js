@@ -1,4 +1,8 @@
-﻿function ClickUpvote(obj) {
+﻿
+
+
+
+function ClickUpvote(obj) {
     //alert("alert test.");
 
     var Li = {
@@ -17,7 +21,7 @@
         success: function (x) {
             if (x==1) {
                 document.getElementById(obj).innerHTML = parseInt(document.getElementById(obj).innerHTML) + 1;     
-                
+                document.getElementById(obj).innerHTML = "+" + document.getElementById(obj).innerHTML;
             }
             else if (x == 0) {
                 //window.location.href = "http://koaaue-001-site1.myasp.net/Account/Login/";
