@@ -98,3 +98,4 @@
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\bin\zh-Hant\System.Spatial.resources.dll
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.dll
 \\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.pdb
+\\psf\Home\Documents\Visual Studio 2013\Projects\hub\NewsAgg\NewsFeed\NewsFeed\obj\Debug\NewsFeed.csprojResolveAssemblyReference.cache

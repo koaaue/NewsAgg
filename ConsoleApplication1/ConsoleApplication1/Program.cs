@@ -2,16 +2,28 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
 namespace ConsoleApplication1
 {
     class Program
     {
+        private static Regex non1 = new Regex(@"\b(a|aboard|about|above|absent|according\sto|across|after|against|ago|ahead\sof|ain't|all|along|alongside)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+
         static void Main(string[] args)
         {
-            String article = "This text is used for detecting the keywords. The keywords of this text should be keywords.";
+            String article = "Some nonsense word: about across, above, after. This text is used for detecting the keywords. The keywords of this text should be keywords.";
             article = article.ToLower();                                        //全部小写
+
+            /****** removing trivial words *****/
+            string text = article;
+            text = non1.Replace(text, "");
+
+            Console.WriteLine(text);
+
+
+
 
             /** 应该建立更复杂的split算法，得用Regex */
             string[] split = article.Split(new Char[] { ',', '.', ' ' }, StringSplitOptions.RemoveEmptyEntries);      //建单词array
