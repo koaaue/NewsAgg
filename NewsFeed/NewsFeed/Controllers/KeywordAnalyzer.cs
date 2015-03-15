@@ -48,9 +48,6 @@ namespace NewsFeed.Controllers
                 }
                 else
                 {
-                    //keyLine.cntAtl++;
-                    //db.keywords.Add(keyLine);
-                    //db.Entry(keyLine).State = EntityState.Modified;
                     db.keywords.Find(word).cntAtl++;
                 }
 
