@@ -20,6 +20,9 @@ namespace NewsFeed.Models
         [System.Xml.Serialization.XmlElement("guid")]
         public string guid { get; set; }
 
+        [System.Xml.Serialization.XmlElement("description")]
+        public string description { get; set; }
+
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
 
@@ -36,6 +39,8 @@ namespace NewsFeed.Models
             title = i.title;
             pubDate = i.pubDate;
             guid = i.guid;
+            description = i.description;
+
             Date = d;
             srcName = s;
             totalLike = t;

@@ -15,7 +15,7 @@ namespace NewsFeed.Controllers
 
         public void analyze( Models.item item)
         {
-            string text = item.title;
+            string text = item.title + item.description;
             text = text.ToLower();                                            //全部小写
 
             /******************************

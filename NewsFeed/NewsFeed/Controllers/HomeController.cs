@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml;
 using System.Xml.Serialization;
+using System.Text.RegularExpressions;
 
 namespace NewsFeed.Controllers
 {
@@ -103,6 +104,9 @@ namespace NewsFeed.Controllers
                     src.newDate = time;    //更新时间
                 }
 
+                // description里面会带有<和> 之间的多余内容，例如广告，使用正则表达式可以消除掉
+                cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
+                
 
                 Models.item item = new Models.item(cars.item[i], time, "NYTimes",0);
 
