@@ -61,9 +61,7 @@
             </td>
 
             <td class="desc">               <!--jQuery识别class可以全局，id只对第一个有效-->
-                <div>
-                    @Html.DisplayFor(modelItem => item.title)
-                </div>
+                @Html.DisplayFor(modelItem => item.title)
             </td>
 
             <td>
@@ -71,20 +69,20 @@
             </td>
 
         </tr>
-        
+
         <tr style=" display:none;" class="hidden">
             <td>
+                <div></div>
             </td>
 
             <td>
+                <div></div>
             </td>
 
             <td>
-                <div>
-                    <a href="@Html.DisplayFor(modelItem => item.guid)" target="_blank">@Html.DisplayFor(modelItem => item.title)</a>
-                    <br/>
-                    @Html.DisplayFor(modelItem => item.description)
-                </div>
+                <a href="@Html.DisplayFor(modelItem => item.guid)" target="_blank">@Html.DisplayFor(modelItem => item.title)</a>
+                <br />
+                @Html.DisplayFor(modelItem => item.description)
             </td>
 
             <td>
