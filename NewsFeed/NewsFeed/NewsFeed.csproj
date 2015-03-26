@@ -191,7 +191,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\article.cs" />
-    <Compile Include="Models\artCntKey.cs" />
+    <Compile Include="Models\artKey.cs" />
     <Compile Include="Models\keyword.cs" />
     <Compile Include="Models\like.cs" />
     <Compile Include="Models\source.cs" />

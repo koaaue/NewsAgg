@@ -89,6 +89,9 @@ namespace NewsFeed.Controllers
             /******************************
              循环添加每一条新闻条目，只添加新条目
              ******************************/
+            KeywordAnalyzer ka = new KeywordAnalyzer();
+            Models.item item;
+
             for (var i = cars.item.Length - 1; i >= 0; i--)    //old item store into database first
             {
                 string httpTime = cars.item[i].pubDate;
@@ -108,23 +111,32 @@ namespace NewsFeed.Controllers
                 cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
                 
 
-                Models.item item = new Models.item(cars.item[i], time, "NYTimes",0);
+                item = new Models.item(cars.item[i], time, "NYTimes",0);
 
                 db.items.Add(item);               //item include 4 elements
 
                 db.SaveChanges();                 //save DB before calling other function !!
 
 
-
                 /**********************************
-                 * 添加每篇文章同时对keyword表和artCntKey表进行统计
+                 * 添加每篇文章同时对keyword表和artKey表进行统计
                  * ********************************/
-                KeywordAnalyzer ka = new KeywordAnalyzer();
-
                 ka.analyze(item);
 
-
+                ka.TFIDF(item.Id);
             }
+
+            /**********************************
+             * 添加完所有文章后，计算每篇文章的TFIDF。（未成功）
+             * ********************************/
+            /*int count = db.items.Count();
+            int endId = db.items.ElementAt(count - 1).Id;
+            int endId = db.items.Last().Id;               //最后一条新闻id
+            for (var id = endId; id > endId - cars.item.Length; id-- )
+            {
+                ka.TFIDF(id);
+            }*/
+
 
             //db.SaveChanges();                 
             return View(db.items.ToList());

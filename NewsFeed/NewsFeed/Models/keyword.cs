@@ -11,7 +11,7 @@ namespace NewsFeed.Models
         //public int Id { get; set; }
         [Key]
         public string word { get; set; }
-        public int cntAtl { get; set; }                             //the whole number of articles that have this keyword
+        public int IDF { get; set; }                             //the whole number of articles that have this keyword
 
         public keyword()
         {
@@ -19,7 +19,7 @@ namespace NewsFeed.Models
         public keyword(string w, int cnt)
         {
             word = w;      //foreign key can't use
-            cntAtl = cnt;
+            IDF = cnt;
         }
 
     }
