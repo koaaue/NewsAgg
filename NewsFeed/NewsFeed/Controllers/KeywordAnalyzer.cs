@@ -70,11 +70,15 @@ namespace NewsFeed.Controllers
         {
             int TotalDoc = db.items.Count();                            //文档总数，TotalDoc和IDF都会实时改变
 
-            var query = from artKey in db.artKeys
+            /*var query = from artKey in db.artKeys
                         where artKey.AId == id                          //根据item id找到全部word，存在query结果中
-                        select artKey
-                        ;
-            foreach(var artKey in query){
+                        select artKey;
+             */
+            var query = db.artKeys                                      //另一种方法
+                       .Where(x => x.AId == id);
+            
+            foreach(var artKey in query)
+            {
                 double tf = artKey.TF;                                  //这里应该再除以frequency的最大值
                 double idf = db.keywords.Find(artKey.word).IDF;         //查询每个word的伪IDF
 
@@ -87,7 +91,6 @@ namespace NewsFeed.Controllers
             /*****************************
              * 把结果存进article表中
              *****************************/
-            
 
         }
 

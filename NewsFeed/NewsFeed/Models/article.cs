@@ -25,11 +25,12 @@ namespace NewsFeed.Models
 
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
+        public string keyword { get; set; }
+        //  public string category { get; set; }
 
         [ForeignKey("source")]
         public string srcName { get; set; }
-        //  public string category { get; set; }
-        //  public string[] keyword { get; set; }
+
         public item()
         {
         }
@@ -40,6 +41,7 @@ namespace NewsFeed.Models
             pubDate = i.pubDate;
             guid = i.guid;
             description = i.description;
+            keyword = i.keyword;               //necessary?
 
             Date = d;
             srcName = s;

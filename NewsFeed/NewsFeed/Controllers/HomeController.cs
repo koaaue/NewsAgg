@@ -89,8 +89,6 @@ namespace NewsFeed.Controllers
             /******************************
              循环添加每一条新闻条目，只添加新条目
              ******************************/
-            KeywordAnalyzer ka = new KeywordAnalyzer();
-            Models.item item;
 
             for (var i = cars.item.Length - 1; i >= 0; i--)    //old item store into database first
             {
@@ -109,9 +107,9 @@ namespace NewsFeed.Controllers
 
                 // description里面会带有<和> 之间的多余内容，例如广告，使用正则表达式可以消除掉
                 cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
-                
 
-                item = new Models.item(cars.item[i], time, "NYTimes",0);
+
+                Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0);
 
                 db.items.Add(item);               //item include 4 elements
 
@@ -121,21 +119,29 @@ namespace NewsFeed.Controllers
                 /**********************************
                  * 添加每篇文章同时对keyword表和artKey表进行统计
                  * ********************************/
-                ka.analyze(item);
+                KeywordAnalyzer ka = new KeywordAnalyzer();
 
-                ka.TFIDF(item.Id);
+                ka.analyze(item);                   //这里保存的数据库结果，不会传到view的ToList里？TFIDF
+
+                ka.TFIDF(item.Id);                  //随着数据越多，TFIDF效果会越来越精确
+
+
+                /*****************************
+                * 把结果存进article表中。不能放在子函数，否则传不进View？
+                *****************************/
+                var query2 = db.artKeys
+                       .Where(x => x.AId == item.Id)
+                       .OrderByDescending(x => x.TFIDF)
+                       .Take(3);                                        //获得排序最高的三个关键词
+                string str = "";
+                foreach (var line in query2)
+                {
+                    str = str + line.word + ",";
+                }
+
+                db.items.Find(item.Id).keyword = str;
+                db.SaveChanges();
             }
-
-            /**********************************
-             * 添加完所有文章后，计算每篇文章的TFIDF。（未成功）
-             * ********************************/
-            /*int count = db.items.Count();
-            int endId = db.items.ElementAt(count - 1).Id;
-            int endId = db.items.Last().Id;               //最后一条新闻id
-            for (var id = endId; id > endId - cars.item.Length; id-- )
-            {
-                ka.TFIDF(id);
-            }*/
 
 
             //db.SaveChanges();                 
