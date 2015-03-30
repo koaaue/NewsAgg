@@ -16,7 +16,7 @@ namespace MvcApplication8.Controllers
 {
     public class CNNController : Controller
     {
-        private CarContext db = new CarContext();
+        private NewsFeedContext db = new NewsFeedContext();
 
         //
         // GET: /Xml2Model/
@@ -101,7 +101,7 @@ namespace MvcApplication8.Controllers
                 }
 
 
-                Models.item item = new Models.item(cars.item[i], time, "CNN", 0);//, "");
+                Models.item item = new Models.item(cars.item[i], time, "CNN", 0,"","","");//, "");
 
                 db.items.Add(item);               //item include 4 elements
                 //db.channel.Add(cars.item[i]);

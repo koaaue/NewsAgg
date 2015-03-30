@@ -106,3 +106,4 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Owin.Security.Providers.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.xml
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Microsoft.Owin.Security.xml
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll.config

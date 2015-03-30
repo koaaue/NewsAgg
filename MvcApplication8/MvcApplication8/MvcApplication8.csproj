@@ -188,8 +188,8 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\ArticleKeyword.cs" />
-    <Compile Include="Models\Car.cs" />
-    <Compile Include="Models\CarContext.cs" />
+    <Compile Include="Models\ArticleItems.cs" />
+    <Compile Include="Models\NewsFeedContext.cs" />
     <Compile Include="Models\KeywordsTotal.cs" />
     <Compile Include="Models\like.cs" />
     <Compile Include="Models\source.cs" />
@@ -274,7 +274,9 @@
     <Content Include="Scripts\modernizr-2.5.3.js" />
     <Content Include="Scripts\showdesc.js" />
     <Content Include="Scripts\upvote.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>

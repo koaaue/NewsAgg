@@ -1,4 +1,3 @@
-C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll.config
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.pdb
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\Antlr3.Runtime.dll
@@ -56,3 +55,4 @@ C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\DotNetOpenAuth.OpenId.Re
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.dll
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.pdb
 C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\obj\Debug\MvcApplication8.csprojResolveAssemblyReference.cache
+C:\newsagg2\NewsAgg\MvcApplication8\MvcApplication8\bin\MvcApplication8.dll.config
