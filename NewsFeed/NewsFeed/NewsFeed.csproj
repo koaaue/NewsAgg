@@ -191,7 +191,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\article.cs" />
-    <Compile Include="Models\artCntKey.cs" />
+    <Compile Include="Models\artKey.cs" />
     <Compile Include="Models\keyword.cs" />
     <Compile Include="Models\like.cs" />
     <Compile Include="Models\source.cs" />
@@ -257,6 +257,7 @@
     <None Include="Properties\PublishProfiles\NewsFeed.pubxml" />
     <None Include="Scripts\jquery-1.8.2.intellisense.js" />
     <Content Include="Images\thumb.png" />
+    <Content Include="Scripts\articleDetail.js" />
     <Content Include="Scripts\jquery-1.8.2.js" />
     <Content Include="Scripts\jquery-1.8.2.min.js" />
     <None Include="Scripts\jquery.validate-vsdoc.js" />

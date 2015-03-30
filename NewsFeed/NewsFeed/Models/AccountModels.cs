@@ -22,7 +22,7 @@ namespace NewsFeed.Models
         public DbSet<like> likes { get; set; }
 
         public DbSet<keyword> keywords { get; set; }
-        public DbSet<artCntKey> artCntKeys { get; set; }
+        public DbSet<artKey> artKeys { get; set; }
 
     }
 

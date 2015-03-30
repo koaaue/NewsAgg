@@ -14,9 +14,13 @@
     });
 
 
-    document.getElementById(obj).innerHTML = "+1";     //只能改变第一行啊
+    //document.getElementById(obj).innerHTML = "+1";     //只能改变第一行啊
 
+    $("#"+obj).text("+1");     //只能改变第一行啊
 
+    /*document.getElementById(obj).innerHTML = parseInt(document.getElementById(obj).innerHTML) + 1;
+    document.getElementById(obj).innerHTML = "+" + document.getElementById(obj).innerHTML;
+    */
 }
 
 //===AJAX, 后台访问url并修改数据库===

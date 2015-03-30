@@ -20,13 +20,17 @@ namespace NewsFeed.Models
         [System.Xml.Serialization.XmlElement("guid")]
         public string guid { get; set; }
 
+        [System.Xml.Serialization.XmlElement("description")]
+        public string description { get; set; }
+
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
+        public string keyword { get; set; }
+        //  public string category { get; set; }
 
         [ForeignKey("source")]
         public string srcName { get; set; }
-        //  public string category { get; set; }
-        //  public string[] keyword { get; set; }
+
         public item()
         {
         }
@@ -36,6 +40,9 @@ namespace NewsFeed.Models
             title = i.title;
             pubDate = i.pubDate;
             guid = i.guid;
+            description = i.description;
+            keyword = i.keyword;               //necessary?
+
             Date = d;
             srcName = s;
             totalLike = t;

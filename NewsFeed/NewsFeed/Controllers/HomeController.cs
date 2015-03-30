@@ -7,6 +7,7 @@ using System.Web;
 using System.Web.Mvc;
 using System.Xml;
 using System.Xml.Serialization;
+using System.Text.RegularExpressions;
 
 namespace NewsFeed.Controllers
 {
@@ -88,6 +89,7 @@ namespace NewsFeed.Controllers
             /******************************
              循环添加每一条新闻条目，只添加新条目
              ******************************/
+
             for (var i = cars.item.Length - 1; i >= 0; i--)    //old item store into database first
             {
                 string httpTime = cars.item[i].pubDate;
@@ -103,24 +105,44 @@ namespace NewsFeed.Controllers
                     src.newDate = time;    //更新时间
                 }
 
+                // description里面会带有<和> 之间的多余内容，例如广告，使用正则表达式可以消除掉
+                cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
 
-                Models.item item = new Models.item(cars.item[i], time, "NYTimes",0);
+
+                Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0);
 
                 db.items.Add(item);               //item include 4 elements
 
                 db.SaveChanges();                 //save DB before calling other function !!
 
 
-
                 /**********************************
-                 * 添加每篇文章同时对keyword表和artCntKey表进行统计
+                 * 添加每篇文章同时对keyword表和artKey表进行统计
                  * ********************************/
                 KeywordAnalyzer ka = new KeywordAnalyzer();
 
-                ka.analyze(item);
+                ka.analyze(item);                   //这里保存的数据库结果，不会传到view的ToList里？TFIDF
+
+                ka.TFIDF(item.Id);                  //随着数据越多，TFIDF效果会越来越精确
 
 
+                /*****************************
+                * 把结果存进article表中。不能放在子函数，否则传不进View？
+                *****************************/
+                var query2 = db.artKeys
+                       .Where(x => x.AId == item.Id)
+                       .OrderByDescending(x => x.TFIDF)
+                       .Take(3);                                        //获得排序最高的三个关键词
+                string str = "";
+                foreach (var line in query2)
+                {
+                    str = str + line.word + ",";
+                }
+
+                db.items.Find(item.Id).keyword = str;
+                db.SaveChanges();
             }
+
 
             //db.SaveChanges();                 
             return View(db.items.ToList());
