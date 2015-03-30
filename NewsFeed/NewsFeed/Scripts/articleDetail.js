@@ -1,6 +1,5 @@
 ﻿
 $(document).ready(function () {
-    // TODO: Use validateField to validate form fields on the page.
 
     //$(".hidden").each().hide();
 
@@ -24,3 +23,10 @@ $(document).ready(function () {
         $(this).css("background-color", "#efeeef");
     });
 });
+
+
+function splitKeyword( str ) {             //需要传参数
+
+    //String [] word = str.split(',');
+    $("#" + obj).text("<>");
+}
