@@ -9,7 +9,7 @@ namespace MvcApplication8.Migrations
     {
         public Configuration()
         {
-            AutomaticMigrationsEnabled = false;
+            AutomaticMigrationsEnabled = true;
         }
 
         protected override void Seed(MvcApplication8.Models.UsersContext context)

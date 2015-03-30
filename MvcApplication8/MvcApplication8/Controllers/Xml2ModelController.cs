@@ -18,11 +18,31 @@ namespace MvcApplication8.Controllers
 {
     public class Xml2ModelController : Controller
     {
-        private CarContext db = new CarContext();
+        private UsersContext db = new UsersContext();
 
         //
         // GET: /Xml2Model/
 
+        private static Regex non1 = new Regex(@"\b(a|aboard|about|above|absent|according\sto|across|after|against|ago|ahead\sof|ain't|all|along|alongside)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non2 = new Regex(@"\b(also|although|am|amid|amidst|among|amongst|an|and|anti|anybody|anyone|anything|apart|apart\sfrom|are|been)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non3 = new Regex(@"\b(aren't|around|as|as\sfar\sas|as\ssoon\sas|as\swell\sas|aside|at|atop|away|be|because|because\sof|before)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non4 = new Regex(@"\b(behind|below|beneath|beside|besides|between|betwixt|beyond|but|by|by\smeans\sof|by\sthe\stime|can|cannot)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non5 = new Regex(@"\b(circa|close\sto|com|concerning|considering|could|couldn't|cum|'d|despite|did|didn't|do|does|doesn't|don't)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non6 = new Regex(@"\b(down|due\sto|during|each_other|'em|even\sif|even\sthough|ever|every|every\stime|everybody|everyone)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non7 = new Regex(@"\b(everything|except|far\sfrom|few|first\stime|following|for|from|get|got|had|hadn't|has|hasn't|have)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non8 = new Regex(@"\b(haven't|he|hence|her|here|hers|herself|him|himself|his|how|i|if|in|in\saccordance\swith|in\saddition\sto|in\scase)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non9 = new Regex(@"\b(in\sfront\sof|in\slieu\sof|in\splace\sof|in\sspite\sof|in\sthe\sevent\sthat|in\sto|inside|inside\sof)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non10 = new Regex(@"\b(instead\sof|into|is|isn't|it|itself|just\sin\scase|like|'ll|lots|may|me|mid|might|mightn't|mine|more|most)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non11 = new Regex(@"\b(must|mustn't|myself|near|near\sto|nearest|new|no|no\sone|nobody|none|not|nothing|notwithstanding|now\sthat|of)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non12 = new Regex(@"\b(off|on|on\sbehalf\sof|on\sto|on\stop\sof|once|one|one\sanother|only\sif|onto|opposite|or|org|other|our|any)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non13 = new Regex(@"\b(ours|ourselves|out|out\sof|outside|outside\sof|over|past|per|plenty|plus|prior\sto|qua|re|'re|really|set)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non14 = new Regex(@"\b(regarding|round|'s|said|sans|save|say|says|shall|shan't|she|should|shouldn't|since|so|somebody|its|only)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non15 = new Regex(@"\b(someone|something|than|that|the|thee|their|theirs|them|themselves|there|these|they|thine|this|thou)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non16 = new Regex(@"\b(though|through|throughout|till|to|toward|towards|under|underneath|unless|unlike|until|unto|up|upon|using|even)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non17 = new Regex(@"\b(us|'ve|versus|via|was|wasn't|we|were|weren't|what|when|whenever|where|whereas|whether\sor\snot|things)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non18 = new Regex(@"\b(which|while|who|whoever|whom|why|will|with|with\sregard\sto|withal|within|without|won't|would|wouldn't|mere)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non19 = new Regex(@"\b(ya|ye|yes|you|your|yours|yourself)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
+        private static Regex non20 = new Regex(@"\b(a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z)\b", (RegexOptions.IgnoreCase | RegexOptions.Compiled));
         public ActionResult Index()
         {
            /* HashSet<string> hs = new HashSet<string>();
@@ -40,7 +60,7 @@ namespace MvcApplication8.Controllers
             /******************************
              访问rss的地址，读取xml数据
              ******************************/
-            rss cars = null;
+            rss newsItems = null;
             //  System.Net.WebClient client = new WebClient();
             //  byte[] page = client.DownloadData("http://rss.nytimes.com/services/xml/rss/nyt/US.xml");
             // string path = System.Text.Encoding.UTF8.GetString(page);
@@ -62,7 +82,7 @@ namespace MvcApplication8.Controllers
             //  TextReader reader = new StreamReader(path);
 
             XmlReader reader = new XmlTextReader("http://rss.nytimes.com/services/xml/rss/nyt/US.xml");
-            cars = (rss)serializer.Deserialize(reader);
+            newsItems = (rss)serializer.Deserialize(reader);
 
             /*var serializer = new XmlSerializer(typeof(rss));
               using (TextReader reader = new StringReader(html))
@@ -80,7 +100,7 @@ namespace MvcApplication8.Controllers
             DateTime newTime;
             if (db.sources.Find("NYTimes") == null)
             {
-                string httpTime = cars.item[cars.item.Length - 1].pubDate;
+                string httpTime = newsItems.item[newsItems.item.Length - 1].pubDate;
                 newTime = DateTime.Parse(httpTime);
                 Models.source src = new Models.source("NYTimes", newTime);
                 db.sources.Add(src);
@@ -95,9 +115,9 @@ namespace MvcApplication8.Controllers
             /******************************
              循环添加每一条新闻条目，只添加新条目
              ******************************/
-            for (var i = cars.item.Length - 1; i >= 0; i--)    //old item store into database first
+            for (var i = newsItems.item.Length - 1; i >= 0; i--)    //old item store into database first
             {
-                string httpTime = cars.item[i].pubDate;
+                string httpTime = newsItems.item[i].pubDate;
                 DateTime time = DateTime.Parse(httpTime);
 
 
@@ -110,39 +130,70 @@ namespace MvcApplication8.Controllers
                     src.newDate = time;    //更新时间
                 }
                 // description里面会带有<和> 之间的多余内容，例如广告，使用正则表达式可以消除掉
-                cars.item[i].description = Regex.Replace(cars.item[i].description, "<.*?>", string.Empty);
-                Models.item item = new Models.item(cars.item[i], time, "NYTimes", 0);// "");
+                newsItems.item[i].description = Regex.Replace(newsItems.item[i].description, "<.*?>", string.Empty);
+                string text = newsItems.item[i].title +" "+ newsItems.item[i].description;
+                text  = text.ToLower();   
+
+                text = non1.Replace(text, "");
+                text = non2.Replace(text, "");
+                text = non3.Replace(text, "");
+                text = non4.Replace(text, "");
+                text = non5.Replace(text, "");
+                text = non6.Replace(text, "");
+                text = non7.Replace(text, "");
+                text = non8.Replace(text, "");
+                text = non9.Replace(text, "");
+                text = non10.Replace(text, "");
+                text = non11.Replace(text, "");
+                text = non12.Replace(text, "");
+                text = non13.Replace(text, "");
+                text = non14.Replace(text, "");
+                text = non15.Replace(text, "");
+                text = non16.Replace(text, "");
+                text = non17.Replace(text, "");
+                text = non18.Replace(text, "");
+                text = non19.Replace(text, "");
+                text = non20.Replace(text, "");
+                char[] sp = new Char[] { ',', '.', ' ', '?', ':', '\'', '‘', '’','|'};
+                string[] words = text.Split(sp, StringSplitOptions.RemoveEmptyEntries);  
+
+               // string[] words = text.Split(' ');
+
+
+                words[0] = Regex.Replace(words[0], "[\\s\\p{P}\n\r=<>$>+￥^]", "");
+                words[1] = Regex.Replace(words[1], "[\\s\\p{P}\n\r=<>$>+￥^]", "");
+                words[2] = Regex.Replace(words[2], "[\\s\\p{P}\n\r=<>$>+￥^]", "");
+
+
+                Models.item item = new Models.item(newsItems.item[i], time, "NYTimes", 0, words[0], words[1], words[2]);// "");
 
                 db.items.Add(item);               //item include 4 elements
                 db.SaveChanges();
-               
-                string[] words = item.title.Split(' ');
-                string str;
-                for (int j = 0; j < 3; j++) {
-                    str = words[j];
-                    str = Regex.Replace(str, "[\\s\\p{P}\n\r=<>$>+￥^]", "").ToLower();//去掉关键字里面的标点
-                db.articleKeyword.Add(new ArticleKeyword(str, item.Id));
 
 
-                if (db.keywordsTotal.Find(str)!=null)
+                for (int j = 0; j < 3; j++)
                 {
-                    db.keywordsTotal.Find(str).keywordSum++;
-                    
+
+                    db.articleKeyword.Add(new ArticleKeyword(words[j], item.Id));
+
+                    if (db.keywordsTotal.Find(words[j]) != null)
+                    {
+                        db.keywordsTotal.Find(words[j]).keywordSum++;
+
+                    }
+                    else
+                    {
+                        db.keywordsTotal.Add(new KeywordsTotal(words[j], 1));
+
+                    }
+                    //db.SaveChanges();
                 }
-                else
-                {
-                    db.keywordsTotal.Add(new KeywordsTotal(str,1));
-                    
-                }
-                    db.SaveChanges();
-                }
-                
 
                 //db.channel.Add(cars.item[i]);
 
                  
             }
-            //db.SaveChanges();
+            db.SaveChanges();
 
             /*var query = from item in db.items
                          where item.imgId == ""
@@ -156,7 +207,25 @@ namespace MvcApplication8.Controllers
             return View();
         }
 
+       /* static List<item> selectedarticles = new List<item> { };
 
+        [HttpPost]
+        public List<item> search(string str)
+        {
+            var query2 = from item in db.items                                       //只提取一天内的新闻
+                        where item.kw1==str || item.kw2==str ||item.kw3==str
+                        select item;
+            DataTable dt = new DataTable();
+            dt.Columns.Add("title");
+            dt.Columns.Add("link");
+            DataRow row = null;
+            foreach (var rowObj in query2)
+            {
+                row = dt.NewRow();
+                dt.Rows.Add(rowObj.title,rowObj.guid);
+            }
+            return dt;
+        }*/
 
         /******************************
          * 点赞功能

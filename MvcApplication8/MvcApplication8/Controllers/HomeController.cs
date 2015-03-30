@@ -11,15 +11,15 @@ namespace MvcApplication8.Controllers
 {
     public class HomeController : Controller
     {
-        private CarContext db = new CarContext();
+        private UsersContext db = new UsersContext();
         public ActionResult Index()
 
         {
+            
             var query = from item in db.items                                       //只提取一天内的新闻
-
                         where DbFunctions.DiffHours(item.Date, DateTime.Now) < 24
                         select item;
-
+            
             
            
 

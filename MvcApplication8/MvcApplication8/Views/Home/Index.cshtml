@@ -35,29 +35,27 @@
     var item =Model.ElementAt(i);
     
     <tr>
-        <td>
+        <td width="25">
             <!--<input type="button" onclick="save()" value="upvote" />-->       <!--用JavaScript的方法-->
-            <!--@Html.ActionLink("upvote", "upvote", new { id = item.Id })       MVC自带法得跳转到upvote页面再立刻跳转回来，不好用-->            
-            
+            <!--@Html.ActionLink("upvote", "upvote", new { id = item.Id })       MVC自带法得跳转到upvote页面再立刻跳转回来，不好用-->
             <!--<a href="#" id="upvote-ajax">upvote</a>-->                      <!--用id调用jQuery是不是不能传参数？-->
-           
             <!--<a href="javascript:;" onclick="ClickUpvote(@item.Id)">         <!--需要修改母版<a>的样式-->
             <!--    <img id="imgup" src="~/Images/thumb.png" style="width:18px;height:17px" /> </a>-->
 
-            <img class="voteimage" src="~/Images/thumb.png" style="width: 18px; height: 17px;opacity: 0.4;"        @*id=@item.imgId*@
+            <img class="voteimage" src="~/Images/thumb.png" style="width: 18px; height: 17px;opacity: 0.4;" @*id=@item.imgId*@
                  onclick="ClickUpvote(@item.Id)" />
 
         </td>
 		
-		<td >
-            <span id=@item.Id >+@Html.DisplayFor(modelItem => item.totalLike)</span>      <!--直接让itemId作为id-->
+        <td width="15">
+            <span id=@item.Id>+@Html.DisplayFor(modelItem => item.totalLike)</span>      <!--直接让itemId作为id-->
         </td>      
 
-        <td width="700" class="desc" >
+        <td width="550" class="desc" >
             @Html.DisplayFor(modelItem => item.title)
         </td>
        
-        <td>
+        <td width="200">
             @Html.DisplayFor(modelItem => item.Date)
         </td>
         
@@ -71,6 +69,8 @@
             <a href="@Html.DisplayFor(modelItem => item.guid)" target="_blank">@Html.DisplayFor(modelItem => item.title)</a>
             <br />
             @Html.DisplayFor(modelItem => item.description)
+            <br />
+            @Html.DisplayFor(modelItem => item.kw1) @Html.DisplayFor(modelItem => item.kw2) @Html.DisplayFor(modelItem => item.kw3)
         </td>
 
         <td></td>

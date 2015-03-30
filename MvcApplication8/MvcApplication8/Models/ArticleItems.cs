@@ -22,7 +22,9 @@ namespace MvcApplication8.Models
 
         [System.Xml.Serialization.XmlElement("description")]
         public string description { get; set; }
-
+        public string kw1 { get; set; }
+        public string kw2 { get; set; }
+        public string kw3 { get; set; }
         public DateTime? Date { get; set; }
         public int totalLike { get; set; }
         //public string imgId { get; set; }
@@ -34,7 +36,7 @@ namespace MvcApplication8.Models
         {
         }
 
-        public item(item i, DateTime d, string s, int t)//,string x)
+        public item(item i, DateTime d, string s, int t,string k1,string k2,string k3)//,string x)
         {
             title = i.title;
             pubDate = i.pubDate;
@@ -43,7 +45,9 @@ namespace MvcApplication8.Models
             description = i.description;
             srcName = s;
             totalLike = t;
-            //imgId = x;
+            kw1 = k1;
+            kw2 = k2;
+            kw3 = k3;
         }
 
         public virtual source source { get; set; }
